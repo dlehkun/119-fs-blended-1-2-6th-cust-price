@@ -200,6 +200,55 @@ header a {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 411px) {
+  .our-clients-container {
+    padding: 50px 31px 73px 26px;
+  }
+
+.second-page-title{
+  margin-bottom: 32px;
+}
+
+  .group-logo-clients {
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 60px;
+    justify-content: space-between;
+  }
+
+  .group-logo-clients li {
+    flex-basis: calc((100% - 50px) / 2);
+  }
+
+  .group-logo-clients li:nth-child(1) img {
+  width: 159px;
+  max-width: 100%;
+  height: auto;
+}
+
+.group-logo-clients li:nth-child(2) img {
+  width: 146px;
+  max-width: 100%;
+  height: auto;
+}
+
+.group-logo-clients li:nth-child(3) img {
+  width: 164px;
+  max-width: 100%;
+  height: auto;
+}
+
+.group-logo-clients li:nth-child(4) img {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+}
+
+  .group-logo-clients li:nth-child(5) {
+    display: none;
+  }
+}
+
 /* #endregion Our Clients section */
 
 /* #region Why choose product */
