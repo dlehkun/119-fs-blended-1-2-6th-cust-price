@@ -399,6 +399,57 @@ header a {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 411px) {
+  .product-work-container {
+    padding: 96px auto 70px auto;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+    max-width: 359px;
+  }
+
+  .step {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .steps .step img {
+    width: 100%;
+    max-width: 349px;
+    height: auto;
+  }
+
+  .steps .step:nth-child(2) img {
+    width: 100%;
+    max-width: 355px;
+    height: auto;
+  }
+
+  .step:nth-child(1) {
+    gap: 80px;
+  }
+
+  .step:nth-child(2) {
+    flex-direction: column;
+    gap: 69px;
+  }
+
+  .step:nth-child(3) {
+    gap: 67px;
+  }
+
+  .step-text-part h3 {
+    display: block;
+    text-align: center;
+    /* margin-right: 273px;
+        margin-left: 32px; */
+    min-width: 58px;
+  }
+}
+
 /* #endregion How product work */
 
 /* #region Join thousand */
