@@ -205,9 +205,9 @@ header a {
     padding: 50px 31px 73px 26px;
   }
 
-.second-page-title{
-  margin-bottom: 32px;
-}
+  .second-page-title {
+    margin-bottom: 32px;
+  }
 
   .group-logo-clients {
     flex-wrap: wrap;
@@ -221,28 +221,28 @@ header a {
   }
 
   .group-logo-clients li:nth-child(1) img {
-  width: 159px;
-  max-width: 100%;
-  height: auto;
-}
+    width: 159px;
+    max-width: 100%;
+    height: auto;
+  }
 
-.group-logo-clients li:nth-child(2) img {
-  width: 146px;
-  max-width: 100%;
-  height: auto;
-}
+  .group-logo-clients li:nth-child(2) img {
+    width: 146px;
+    max-width: 100%;
+    height: auto;
+  }
 
-.group-logo-clients li:nth-child(3) img {
-  width: 164px;
-  max-width: 100%;
-  height: auto;
-}
+  .group-logo-clients li:nth-child(3) img {
+    width: 164px;
+    max-width: 100%;
+    height: auto;
+  }
 
-.group-logo-clients li:nth-child(4) img {
-  width: 140px;
-  max-width: 100%;
-  height: auto;
-}
+  .group-logo-clients li:nth-child(4) img {
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+  }
 
   .group-logo-clients li:nth-child(5) {
     display: none;
@@ -317,6 +317,23 @@ header a {
   line-height: 169%;
   letter-spacing: 0.01em;
   color: var(--main-color);
+}
+
+@media screen and (max-width: 411px) {
+  .choose-product-container {
+    padding: 24px 25px 61px 25px;
+  }
+
+  .explanations {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choose-product-container h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
 }
 
 /* #endregion Why choose product */
