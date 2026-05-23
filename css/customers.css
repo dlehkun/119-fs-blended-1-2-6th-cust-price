@@ -409,6 +409,7 @@ header a {
     flex-direction: column;
     gap: 69px;
     max-width: 359px;
+    margin-bottom: 0;
   }
 
   .step {
@@ -441,12 +442,29 @@ header a {
     gap: 67px;
   }
 
+  .step-text-part {
+    max-width: 355px;
+  }
+
   .step-text-part h3 {
     display: block;
-    text-align: center;
+    text-align: left;
+    /* text-align: center; */
     /* margin-right: 273px;
         margin-left: 32px; */
     min-width: 58px;
+  }
+
+  .step-text-part h4 {
+    text-align: left;
+  }
+
+  .step-text-part p {
+    text-align: left;
+  }
+
+  .product-work-container .btn-with-us {
+    display: none;
   }
 }
 
