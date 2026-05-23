@@ -415,6 +415,7 @@ header a {
   .step {
     flex-direction: column;
     text-align: center;
+    margin-bottom: 0;
   }
 
   .steps .step img {
@@ -447,11 +448,7 @@ header a {
   }
 
   .step-text-part h3 {
-    display: block;
     text-align: left;
-    /* text-align: center; */
-    /* margin-right: 273px;
-        margin-left: 32px; */
     min-width: 58px;
   }
 
@@ -546,6 +543,48 @@ header a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 411px) {
+  .join-thousand-container {
+    padding: 30px 30px 33px 30px;
+  }
+
+  .join-thousand-container h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .business-enterprice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
+  }
+
+  .join-icon-box {
+    margin-bottom: 35px;
+  }
+
+  /* .join-thousand-container h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto 32px auto;
+  }
+
+  .business-enterprice {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .business-enterprice li {
+    max-width: 100%;
+  } */
 }
 
 /* #endregion Join thousand */
