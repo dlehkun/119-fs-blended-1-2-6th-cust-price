@@ -275,6 +275,10 @@ header a {
   gap: 60px;
 }
 
+.is-used-picure-mob-version {
+  display: none;
+}
+
 .item-is-used {
   display: flex;
   flex-direction: column;
@@ -306,6 +310,16 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 411px) {
+  .is-used-picure-desktop-version {
+    display: none;
+  }
+
+  .is-used-picure-mob-version {
+    display: block;
+  }
 }
 
 /* #endregion Is Used */
