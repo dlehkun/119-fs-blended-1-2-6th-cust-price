@@ -110,6 +110,31 @@ header a {
 
 .header-nav-list li {
   padding: 26px 0;
+  cursor: pointer;
+}
+
+.header-nav-list li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: background-color 250ms ease-in-out;
+}
+
+.header-nav-list li:hover::after,
+.header-nav-list li:focus::after {
+  background-color: var(--accent-color);
+}
+
+.header-nav-list li:hover a,
+.header-nav-list li:focus a {
+  color: var(--accent-color);
+}
+
+.header-nav-list li a {
+  cursor: pointer;
 }
 
 .header-nav-list li:nth-child(3) a {
